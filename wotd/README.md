@@ -31,3 +31,31 @@ ctrl + c
 
 sudo gem install cocoapods
 pod setup
+
+Then to the folder of your app > iOs, select the file 
+
+`runner.xcworkspace`
+
+Drag it on top of the xcode icon in dock to open it
+
+Once opened, you'll see a "runner file" . Change the Team > Add an Account...
+
+![image](https://user-images.githubusercontent.com/16845540/144719332-dbb43608-feb7-466e-bdfb-aaf142b6b459.png)
+
+You can now run the project on your device after trusting the device. 
+
+
+## To use an actual Android device 
+
+Download it from the website and install it. 
+
+You need to set up Developer options + USB debugging on your Android. Plug it in and 
+`flutter run`
+
+# To use an actual Android emulator 
+
+Open android studio. Open AVD manager where you can create a virtual device. 
+
+![image](https://user-images.githubusercontent.com/16845540/144719683-a961ba9e-f840-4843-9ace-58e63b2869f3.png)
+
+The you can 
